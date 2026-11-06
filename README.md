@@ -1,11 +1,14 @@
 # Drive Catalogue Sources
 
-This repository is intended to host corresponding third-party source archives, licensing information, and build documentation for the portable Windows Drive Catalogue application.
+This repository prepares corresponding third-party source archives, licensing information and build documentation for the portable Windows Drive Catalogue application.
 
-**Distribution licensing clearance remains pending, including unresolved MPIR and J licensing questions.** Creating this repository does not establish clearance to distribute the application or its dependencies.
+**Distribution licensing clearance remains pending, including unresolved MPIR source/build mapping and J/LGPL debugging-permission questions.** Owner Windows 11 VM acceptance of RC5 Slim r5 is recorded separately from licensing clearance.
 
-- [Source availability](docs/SOURCE-AVAILABILITY.md): version-specific archive and checksum records.
-- [Licensing status](licenses/README.md): pending questions and future license notices.
-- [Build documentation](docs/BUILD.md): information to record for each application version.
+- [Slim r5 review and actions before distribution](docs/SLIM-R5-REVIEW.md).
+- [Source inventory, checksums and planned Release asset delivery](docs/SOURCE-AVAILABILITY.md).
+- [Build evidence and library replacement guidance](docs/BUILD.md).
+- [Third-party licensing policy](licenses/README.md).
 
-Large source archives are planned as assets attached to version-specific GitHub Releases, rather than files committed to Git. No source archives or releases have been published as part of this initial setup. The 1.26 GiB companion archive has not been uploaded.
+Large source archives are planned as version-specific GitHub Release assets, not Git commits. The 1.26 GiB companion remains unuploaded. No GitHub Release has been published. This repository's automatically generated source ZIP would contain documentation only.
+
+The review changes no accepted application files, ZIPs or existing application repositories and performs no application builds or tests. Publication and distribution await a separate owner decision after the documented evidence gaps are resolved.
